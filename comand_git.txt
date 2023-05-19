@@ -1,0 +1,11 @@
+# Actualiza la rama main o master en tu repositorio local
+git checkout main
+
+# Crea una nueva rama llamada master basada en la rama main o master
+git branch master
+
+# Cambia a la nueva rama master
+git checkout master
+
+# Envía la nueva rama master al repositorio remoto en GitHub
+git push -u origin master
